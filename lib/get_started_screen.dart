@@ -91,7 +91,7 @@ class _GetStartedscreenState extends State<GetStartedscreen> {
                         onPressed: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => const LoginScreen()),
+                            MaterialPageRoute(builder: (context) => const RegisterWithPhoneNumber()),
                           );
                         },
                         style: ElevatedButton.styleFrom(
